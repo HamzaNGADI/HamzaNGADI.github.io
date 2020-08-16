@@ -35,7 +35,7 @@
 				<!-- Nav -->
 					<nav id="nav">
 						<ul class="links">
-							<li class="active"><a href="#" onClick="return false;">Projets</a></li>
+							<li class="active"><a style="cursor: pointer;" onClick="document.getElementById('mainpos').scrollIntoView({behavior: 'smooth', block: 'center'});">Projets</a></li>
 						</ul>
 						<ul class="icons">
 							
@@ -46,11 +46,10 @@
 
 				<!-- Main -->
 					<div id="main">
-
 						<!-- Featured Post -->
 							<article class="post featured">
 								<header class="major">
-									<h2>Présentation des projets : </h2>
+									<h2 id ="mainpos">Présentation des projets : </h2>
 									<p>Les projets développés varient entre des programmes desktop, des sites web dynamiques, des prototypes de jeux ou des simulations dans un environnement virtuel.<br />
 									Ces projets sont développés avec divers langages de programmation, Frameworks, APIs et bibliothèques qui les distinguent, ciblant plus d’autonomie en apprentissage des nouvelles technologies.  </p>
 								</header>
@@ -58,6 +57,7 @@
 								<ul class="actions special">
 								</ul>
 							</article>
+
 
 						<!-- Posts -->
 							<section class="posts">
