@@ -1,2 +1,3 @@
-Site web - Portfolio 
-Développé avec Vue.js
+Website - Portfolio 
+
+Developed with Vue.js framework
