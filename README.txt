@@ -1,3 +1,3 @@
 Website - Portfolio 
 
-Developed with Vue.js framework
+Developed with React.js framework
